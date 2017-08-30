@@ -1,0 +1,3 @@
+#!/bin/bash
+
+exec bitcoind -datadir={{pkg.svc_data_path}} -conf={{pkg.svc_config_path}}/bitcoin.conf -printtoconsole
