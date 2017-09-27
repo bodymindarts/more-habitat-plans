@@ -10,7 +10,7 @@ pkg_shasum="15e617179251041f4bf3910257bbb8398db987d863dd3cfc288bdd958de58f00"
 pkg_dirname="opam-full-${pkg_version}"
 pkg_deps=(
   misthosio/aspcud
-  core/camlp4
+  misthosio/camlp4
   core/diffutils
   core/gcc
   core/git
@@ -20,8 +20,8 @@ pkg_deps=(
   core/patch
   core/pkg-config
   core/rsync
-  core/ocaml/4.04.0
-  core/ocamlbuild
+  misthosio/ocaml
+  misthosio/ocamlbuild
   core/which
 )
 
