@@ -1,11 +1,11 @@
 pkg_name=bitcoin
 pkg_origin=misthosio
-pkg_version="0.15.1"
+pkg_version="0.19.0.1"
 # pkg_maintainer="The Habitat Maintainers <humans@habitat.sh>"
 # pkg_license=('Apache-2.0')
 pkg_source="https://github.com/bitcoin/bitcoin/archive/v${pkg_version}.tar.gz"
 # pkg_filename="${pkg_name}-${pkg_version}.tar.gz"
-pkg_shasum="e429d4f257f2b5b6d0caaf36ed1a5f5203e5918c57837efac00b0c322a1fef79"
+pkg_shasum="1a72f583f7448b3808d84ed7f8d8eb224f44b51291fee774bb9cecbd4fcbaec7"
 pkg_deps=(
   core/db
   core/coreutils
